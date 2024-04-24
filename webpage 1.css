@@ -1,0 +1,113 @@
+/* font and border */
+body {
+    border: 3px solid black;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding: 5px;
+    font-family: sans-serif;
+
+    }
+    ul {
+        display: flex; /* Use flexbox layout */
+        justify-content: center; /* Center items horizontally */
+        list-style-type: none; /* Remove bullet points */
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+    }
+    a:link,a:visited{
+        background-color: white;
+        color: black;
+        border: 2px solid rgb(203, 55, 184);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none; /*to remove underline for links*/
+        display: inline-block;
+        margin-right: 20px; /*to create gap between links*/
+      }
+      
+      a:hover {
+        background-color: rgb(12, 178, 37);
+        color: white;
+      }
+    .image{
+        padding: 20px;  
+        display: block;
+        margin: auto;
+        height: 300px;
+    }
+    #Global-Warming{
+        text-align: left;
+        width: 200px;
+       
+    }
+    #Human-Activities{
+       
+       width: 150px;
+       margin-right: 10px;
+      right: 30px;
+      height: 400px;
+    }
+
+     #Global-Warming,  #Human-Activities{ /*to place two paragraphs side by side*/
+        display:inline-block;
+        vertical-align: top;
+        width: 500px;
+        padding: 10px;
+        padding-left: 35px;
+     }
+     div{
+        background-color: rgb(235, 198, 221);
+       
+     }
+     #Environmental-consequences{
+        width: 100%;
+     }
+     .h{
+        text-align: center;
+        font-weight: bold;
+     }
+    
+       
+    #Climate-research{
+        text-align: left;
+        margin-left: 0%;
+        
+    }
+
+/* heading and paragraph font size */
+h1, h2 {
+    font-weight: bold;
+    font-size: 24pt;
+    font-weight: bold ;
+}
+p {
+    font-size: 14pt;
+}
+
+/* image float and margin */
+img.float-left {
+   border-radius: 30%;
+    float: left;
+    width: 300px;
+     height: 200px;
+     margin: 10px;
+
+}
+img.float-right {
+    border-radius: 30%;
+    float: right;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    
+}
+footer {
+    background-color: #72ebe1;
+    padding: 5px;
+    height: 80px;
+    bottom: 0;
+    left: 0;
+}
+    
